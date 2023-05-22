@@ -12,7 +12,7 @@ body{
 
 
 /*for screens less than 1500*/
-@media only screen and (max-width:1500px){
+
     header{
         display: flex;
         justify-content: space-between;
@@ -249,7 +249,7 @@ color:white;
 .last-section div div h6{
     font-size: 1.2em;
 }
-}
+
 
 /*For screens less than 1200*/
 @media only screen and (max-width:1200px){
