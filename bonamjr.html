@@ -4,188 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bonamjr.com</title>
-    <link rel="stylesheet" href="bonamstyle.css">
+    <title>Bonam JR | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <header>
-        <div>BONAM JR</div>
-        <nav>
-            <div class="menu-bar">
-                <img src="menubar.png" alt="menu-picture">
-                <div class="nav-links">
-              <li><a href="https://drive.google.com/file/d/1KKyjJp1SplyoA5bJAHrld-4j84PBgdcN/view?usp=sharing">Resume</a> </li>
-            <li><a href="#premier">Projects</a> </li>
-            <li><a href="#deux">Community engagements</a></li>
-            <li><a href="#trois">Awards & trainings</a> </li>
+    <header class="bg-dark text-white text-center py-4">
+        <h1 class="animate__animated animate__fadeInDown">BONAM JR</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#premier">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#deux">Community Engagement</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#trois">Awards & Trainings</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1KKyjJp1SplyoA5bJAHrld-4j84PBgdcN/view?usp=sharing">Resume</a></li>
+                    </ul>
                 </div>
             </div>
-            
         </nav>
     </header>
 
-    <section class="first-section" >
-        <p> I am an applied computer technology student at the United States International
-        University-Africa. I am passionate about building software to improve human life and
-        I am concentrating in software engineering. I intend to further my education in
-        data science and artificial intelligence.</p>
-
-        <a href="#trois">awards</a>
+    <section class="container text-center my-5 animate__animated animate__fadeInUp">
+        <p>I am an applied computer technology student at the United States International University-Africa. Passionate about building software to improve human life, I focus on software engineering and aim to further my education in data science and artificial intelligence.</p>
+        <a class="btn btn-primary" href="#trois">Awards</a>
     </section>
 
-    <section class="second-section" >
-        <div>
-            <h3>Description</h3>
-            <p>I am goal oriented and results driven both in and out of class.
-                I always try to improve on myself and my community.
-                I love holding on to excellent standards and I have won several awards. Outside of the classroom
-                I engage in activities which benefit the community through my technical and soft skills.</p>
-            
-        </div>
-    </section>
-
-    <section class="section-three" >
-        <h3 > All about my Projects </h3>
-        
-        <div id="premier"><p>I have carried out several projects in areas of development
-            and computer networks</p>  
-        </div>
-        
-        <div class="p1">
-            <h4>Website of a park</h4>
-            <a href="#"><img src="park.jpg" alt="uhuru-park-project"></a>
-            <ul> <li>Used html and css.</li>
-                <li>Contributed to at least 30% of the work.</li>
-                <li>Identified and fixed 8 bugs while making the site responsive.</li></ul> 
-           
-        </div>
-        
-        <div class="p2">
-            <h4>Web app portal</h4>
-            <a href="#"><img src="app-portal.jpg" alt="web-app-project"></a> 
-            <ul><li>Used html and css and Django.</li>
-                <li>Contributed to at least 40% of the work.</li>
-                <li>Identified and fixed 8 bugs in the backend.</li></ul>
-            
-        </div>
-
-        
-        <div class="p3">
-            <h4>Student Registration web application</h4>
-            <a href="#"><img src="student-portal.png" alt="web-app-project"></a> 
-            <ul>
-                <li>Used html, css, javascript and Express.</li>
-            <li>Contributed to at least 30% of the work.</li>
-            <li>Resolved at least 9 backend issues in the JSON file</li>
-            </ul>
-            
-        </div>
-
-        
-        <div class="p4">
-            <h4>Hospital management system</h4>
-            <a href="#"><img src="hospital-management-system.png" alt="web-app-project"></a>
-            <ul><li>Used java and mysql database</li>
-                <li>Contributed to at least 30% of the work with a team of seven</li>
-                <li>Created dynamic java pages which got data from the database</li></ul> 
-            
-        </div>
-    </section>
-    <hr>
-    <hr>
-    <hr>
-    <section class="section-four" >
-        <h3 id="deux">Community engagement</h3>
-        <p id="parac">I have done several projects which have benefitted my community.
-            My community projects consists of projects which have received external 
-            funding and projects which have not received funding and have 
-            been championed by me.
-        </p>
-        <img src="math-project.jpg" alt="mathematics project" id="fpic">
-        <div>
-            
-            <h4>Nkamlikum maths project</h4>
-            <p>The world is in the fourth industrial revolution and my
-                 community lack personnel with the required digital skills
-                  to help the community reap the benefits which come with the 
-                  fourth industrial revolution. This is because a lot students 
-                  shy away from STEM majors. Less than 2 students in every 50 students
-                 in my community consider studying computer science in high school because 
-                 they do not understand mathematics. I have intervened in this by providing
-                 students with toll free classes so that they can be able to gain interest in
-                  mathematics and computer science</p>
-        </div>
-        <img src="IMG20221217135513_01.jpg" alt="" id="spic" >
-        <div>
-            <h4 id="rheading">Mbu Bakundu Project</h4>
-            <p id="rpara"> Mbu Bakundu village is a remote commmunity which has not got a road since its existence
-                Almost every child in that community is ignorant of ICT. 
-                They do not even know that computers exists. This has been a challenge for several years.
-                 In order to solve this i championed a project which solicited for funds from the Mastercard foundation
-                to install a solar plate in the village. After this installation was done,
-                 a computer and a tv were installed where children in that community so that students
-                  can be exposed to basic ICT.</p>
-        </div>
-    </section>
-   
-    <section class="fifth-section" id="trois">
-        <h3>Awards & trainings</h3>
-        <div>
-            <div><img src="blipearth.png" alt=""><strong>BLIPEARTH champion 2023</strong>
-                <p>I and my team emerged winners of the BLIPEARTH 
-                    challenge under the e-agriculture category. <br>
-                    We presented a smart irrigation project which stops irrigating the 
-                    soil when the soil moisture is above a certain level.  
-                </p>
-                <button><a href="https://photos.app.goo.gl/6p3ZAfmA8AfKxQmX9">View award</a></button>
-        </div>
-
-        <div><img src="blipearth.png" alt=""><strong>Entrepreneurship training</strong>
-            <p>
-                I have participated in an entrepreneurship training and I am currently part
-                of the Incubation bootcamp. I am gaining relevant problem solving skills to
-                thrive in environments which require resilience and a positive attitude.
-            </p>
-            <button><a href="https://photos.app.goo.gl/92z1nnvcHYiET6Uh7">View certificate</a></button></div>
-
-            <div><img src="blipearth.png" alt=""><strong>Tranformative leadership training</strong>
-                <p>
-                    I have participated in a one year transformative leadership training
-                    conducted by VS management consulting. I have gained the skills which are neccessary
-                    to transform my community and environment positively.
-                </p>
-                <button><a href="https://photos.app.goo.gl/zkPtXWRSjHkSLnhY7">View certificate</a></button>
+    <section class="container my-5 animate__animated animate__fadeIn">
+        <h3 class="text-center">All About My Projects</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Website of a Park</h4>
+                <img src="park.jpg" class="img-fluid rounded" alt="Uhuru Park Project">
+                <ul>
+                    <li>Used HTML and CSS.</li>
+                    <li>Contributed to at least 30% of the work.</li>
+                    <li>Fixed 8 bugs while making the site responsive.</li>
+                </ul>
             </div>
-
-
-    </div>
+            <div class="col-md-6">
+                <h4>Web App Portal</h4>
+                <img src="app-portal.jpg" class="img-fluid rounded" alt="Web App Project">
+                <ul>
+                    <li>Used HTML, CSS, and Django.</li>
+                    <li>Contributed to at least 40% of the work.</li>
+                    <li>Fixed 8 backend bugs.</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-
-    <section class="last-section">
-        <div>
-            <div><h6>Address</h6> 
-                <li>Off thika road</li> 
-                <li>USIU 00800</li> 
-                <li>Nairobi</li> 
-                <li>Kenya</li> </div>
-
-                <div>
-                    <h6>Contact</h6>
-                    <li>+237672646171</li>
-                    <li>+254748404401</li>
-                    <li>bonamjr24@gmail.com</li>
+    <section class="container my-5">
+        <h3 class="text-center fw-bold animate__animated animate__fadeInDown">Community Engagement</h3>
+        <p class="text-center animate__animated animate__fadeIn">Through various initiatives, I have positively impacted my community by fostering digital literacy and STEM engagement.</p>
+        
+        <div class="row justify-content-center">
+            <!-- Nkamlikum Maths Project -->
+            <div class="col-md-5 mx-2 mb-4 animate__animated animate__zoomIn">
+                <div class="card shadow-lg border-0">
+                    <img src="math-project.jpg" class="card-img-top" alt="Nkamlikum Maths Project">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Nkamlikum Maths Project</h4>
+                        <p class="card-text">Helping students overcome their fear of mathematics to encourage STEM education.</p>
+                    </div>
                 </div>
-
-                <div>
-                <h6>Social Media</h6>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Github</a></li>
+            </div>
+    
+            <!-- Mbu Bakundu Project -->
+            <div class="col-md-5 mx-2 mb-4 animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
+                <div class="card shadow-lg border-0">
+                    <img src="solar-ict.jpg" class="card-img-top" alt="Mbu Bakundu Project">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Mbu Bakundu Project</h4>
+                        <p class="card-text">Installing solar-powered ICT learning facilities in remote communities.</p>
+                    </div>
                 </div>
+            </div>
         </div>
-        <span>&copy;Designed by Bonam JR</span>
-       
+    </section>
+    
+
+    <section class="container my-5 animate__animated animate__fadeIn">
+        <h3 class="text-center">Awards & Trainings</h3>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="blipearth.png" class="img-fluid" alt="BLIPEARTH Champion">
+                <strong>BLIPEARTH Champion 2023</strong>
+                <p>Smart irrigation project under the e-agriculture category.</p>
+                <a href="https://photos.app.goo.gl/6p3ZAfmA8AfKxQmX9" class="btn btn-info">View Award</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="blipearth.png" class="img-fluid" alt="Entrepreneurship Training">
+                <strong>Entrepreneurship Training</strong>
+                <p>Part of an incubation bootcamp gaining problem-solving skills.</p>
+                <a href="https://photos.app.goo.gl/92z1nnvcHYiET6Uh7" class="btn btn-info">View Certificate</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="blipearth.png" class="img-fluid" alt="Leadership Training">
+                <strong>Transformative Leadership Training</strong>
+                <p>One-year program by VS Management Consulting.</p>
+                <a href="https://photos.app.goo.gl/zkPtXWRSjHkSLnhY7" class="btn btn-info">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Address</h6>
+                    <p>Off Thika Road, USIU 00800, Nairobi, Kenya</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contact</h6>
+                    <p>+237672646171 | +254748404401</p>
+                    <p>Email: bonamjr24@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Social Media</h6>
+                    <p><a href="#" class="text-white">Facebook</a> | <a href="#" class="text-white">LinkedIn</a> | <a href="#" class="text-white">GitHub</a></p>
+                </div>
+            </div>
+            <hr>
+            <span>&copy; Designed by Bonam JR</span>
+        </div>
     </section>
 </body>
 </html>
